@@ -1,72 +1,54 @@
-# Insider Test Automation Project
+# Insider Test Automation Project - Documentation
 
-A comprehensive Selenium WebDriver test automation solution for testing QA (Quality Assurance) positions on the Insider company's career website.
+A simplified and understandable HTML documentation page for the Insider Test Automation Project.
+
+## 📄 About This Project
+
+This repository contains a clean, simplified HTML documentation page (`insider.html`) that presents the Insider Test Automation Project in a more concise and understandable format.
+
+## 🎯 What's Different
+
+The original project documentation was quite lengthy (676 lines). This version:
+- **Reduced from 676 to ~200 lines** - Much more concise
+- **Translated to Turkish** - More accessible for Turkish developers
+- **Simplified design** - Cleaner, modern UI
+- **Essential information only** - Removed unnecessary technical details
+- **Mobile-friendly** - Responsive design maintained
+
+## 📁 Files
+
+- **`insider.html`** - Main documentation page (simplified version)
+- **`README.md`** - This file
 
 ## 🚀 Features
 
-- **Page Object Model (POM)** design pattern implementation
-- **Modern Selenium WebDriver 4.15.0** with latest features
-- **Automatic ChromeDriver management** via WebDriverManager
-- **Optimized element locators** using XPath and CSS selectors
-- **Clean and maintainable code** following best practices
+- **Clean HTML5 structure** with modern CSS
+- **Responsive design** - Works on all devices
+- **Turkish language** - Localized content
+- **Professional styling** - Modern gradient header and clean layout
+- **Easy navigation** - Well-organized sections
 
-## 📋 Test Requirements
+## 📋 Content Sections
 
-1. **Homepage Verification**: Visit https://useinsider.com/ and verify the Insider home page is opened
-2. **Career Page Navigation**: Select "Company" menu → "Careers" and verify career page elements
-3. **QA Department Access**: Navigate to QA department page and click "See all QA jobs"
-4. **Job Filtering**: Filter jobs by location (Istanbul, Turkey) and department (Quality Assurance)
-5. **Application Verification**: Verify "View Role" button redirects to Lever application form
+1. **Proje Hakkında** - Project overview
+2. **Test Gereksinimleri** - Test requirements
+3. **Kullanılan Teknolojiler** - Technologies used
+4. **Kurulum ve Çalıştırma** - Installation and usage
+5. **Proje Yapısı** - Project structure
+6. **Sonuç** - Conclusion
 
 ## 🛠️ Technologies Used
 
-- **Java 11** - Main programming language
-- **Selenium WebDriver 4.15.0** - Web automation framework
-- **JUnit 4** - Test framework
-- **Maven** - Dependency management
-- **WebDriverManager** - Automatic driver management
-
-## 📁 Project Structure
-
-```
-insider-selenium/
-├── src/test/java/
-│   ├── base/BaseTest.java           # Base test class
-│   ├── objects/                     # Page objects
-│   │   ├── HomePage.java           # Homepage interactions
-│   │   ├── CareersPage.java        # Careers page
-│   │   ├── QAPage.java             # QA department
-│   │   └── OpenPositionPage.java   # Job listings
-│   └── test_scenarios/
-│       └── VerifyQAJobs.java       # Main test scenario
-├── pom.xml                         # Maven configuration
-└── README.md                       # Project documentation
-```
-
-## ⚡ Quick Start
-
-### Prerequisites
-- Java 11 or higher
-- Maven 3.6 or higher
-- Chrome browser
-
-### Installation
-```bash
-git clone https://github.com/erdncyz/insider-selenium.git
-cd insider-selenium
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with gradients and flexbox
+- **Responsive Design** - Mobile-first approach
 
 ## 📊 Project Status
 
 - **Version**: 1.0.0
 - **Status**: Production Ready
-- **Test Coverage**: Core functionality implemented
+- **Language**: Turkish
+- **Original Lines**: 676 → **Current Lines**: ~200
 
 ## 👨‍💻 Developer
 
@@ -76,9 +58,17 @@ mvn test
 
 ## 🔗 Links
 
-- **Repository**: [insider-selenium](https://github.com/erdncyz/insider-selenium.git)
+- **Main Repository**: [insider-selenium](https://github.com/erdncyz/insider-selenium.git)
 - **Documentation**: [insider.html](insider.html)
+
+## 🎨 Design Features
+
+- **Gradient Header**: Beautiful blue-purple gradient
+- **Info Boxes**: Color-coded information sections
+- **Clean Typography**: Modern font stack
+- **Card Layout**: Clean container design
+- **Hover Effects**: Interactive elements
 
 ---
 
-*This project demonstrates modern test automation best practices using Selenium WebDriver and Page Object Model design pattern.* 
+*This is a simplified documentation page for the Insider Test Automation Project, making it more accessible and easier to understand.* 
