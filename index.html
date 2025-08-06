@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Test Automation Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin: 30px 0 20px 0;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin: 20px 0 10px 0;
+        }
+        
+        p, ul, ol {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .info-box {
+            background-color: #e8f4fd;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .success-box {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+        }
+        
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        .contact {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .github-link {
+            text-align: center;
+            margin: 20px 0;
+            background: linear-gradient(135deg, #24292e 0%, #586069 100%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .github-link a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .github-link a:hover {
+            background-color: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Insider Test Automation Project</h1>
+            <p>Selenium WebDriver QA Position Testing</p>
+        </div>
+
+        <div class="content">
+            <div class="github-link">
+                <strong style="color: white; font-size: 1.1em;">📁 GitHub Repository:</strong> 
+                <br><br>
+                <a href="https://github.com/erdncyz/insider-selenium.git" target="_blank">🔗 insider-selenium</a>
+            </div>
+
+            <div class="contact">
+                <h3>Contact Information</h3>
+                <p><strong>Developer:</strong> Erdinç Yılmaz</p>
+                <p><strong>Phone:</strong> +90 551 435 34 03</p>
+                <p><strong>Email:</strong> erdncyz@gmail.com</p>
+            </div>
+
+            <h2>About the Project</h2>
+            <p>This project is a Selenium WebDriver automation solution developed to test QA (Quality Assurance) positions on the Insider company's career website.</p>
+
+            <div class="info-box">
+                <h3>Features</h3>
+                <ul>
+                    <li>Page Object Model (POM) design pattern</li>
+                    <li>Modern Selenium WebDriver 4.15.0</li>
+                    <li>Automatic ChromeDriver management</li>
+                    <li>Optimized element locators</li>
+                    <li>Clean and readable code</li>
+                </ul>
+            </div>
+
+            <h2>Test Requirements</h2>
+            <ol>
+                <li><strong>Homepage:</strong> Visit https://useinsider.com/ and verify that the Insider homepage is opened</li>
+                <li><strong>Career Page:</strong> Select "Company" menu → "Careers" and verify the career page is opened</li>
+                <li><strong>QA Department:</strong> Navigate to QA department page and click "See all QA jobs" button</li>
+                <li><strong>Filtering:</strong> Filter jobs by location (Istanbul, Turkey) and department (Quality Assurance)</li>
+                <li><strong>Verification:</strong> Verify all jobs are QA positions and "View Role" button redirects to Lever page</li>
+            </ol>
+
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Java 11</strong> - Main programming language</li>
+                <li><strong>Selenium WebDriver 4.15.0</strong> - Web automation framework</li>
+                <li><strong>JUnit 4</strong> - Test framework</li>
+                <li><strong>Maven</strong> - Dependency management</li>
+                <li><strong>WebDriverManager</strong> - Automatic driver management</li>
+            </ul>
+
+            <h2>Installation and Usage</h2>
+            
+            <h3>Prerequisites</h3>
+            <ul>
+                <li>Java 11 or higher</li>
+                <li>Maven 3.6 or higher</li>
+                <li>Chrome browser</li>
+            </ul>
+
+            <h3>Installation Steps</h3>
+            <pre><code>git clone https://github.com/erdncyz/insider-selenium.git
+cd insider-selenium
+mvn clean install</code></pre>
+
+            <h3>Run Tests</h3>
+            <pre><code>mvn test</code></pre>
+
+            <div class="success-box">
+                <h3>Project Status</h3>
+                <p><strong>Version:</strong> 1.0.0</p>
+                <p><strong>Status:</strong> Production Ready</p>
+                <p><strong>Test Coverage:</strong> Core functionality completed</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>Known Issues</h3>
+                <ul>
+                    <li>Job filtering functionality partially completed</li>
+                    <li>Lever page verification needs improvement</li>
+                </ul>
+            </div>
+
+            <h2>Project Structure</h2>
+            <pre><code>insider-selenium/
+├── src/test/java/
+│   ├── base/BaseTest.java           # Base test class
+│   ├── objects/                     # Page objects
+│   │   ├── HomePage.java           # Homepage
+│   │   ├── CareersPage.java        # Career page
+│   │   ├── QAPage.java             # QA department
+│   │   └── OpenPositionPage.java   # Job listings
+│   └── test_scenarios/
+│       └── VerifyQAJobs.java       # Main test scenario
+├── pom.xml                         # Maven configuration
+└── README.md                       # Project documentation</code></pre>
+
+            <h2>Conclusion</h2>
+            <p>This project is a comprehensive solution developed using modern test automation best practices to test QA positions on the Insider website. The Page Object Model design pattern provides maintainable and scalable test code.</p>
+        </div>
+    </div>
+</body>
+</html> 
